@@ -1,44 +1,102 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Sports-Wear</title>
-</head>
-<body>
-  <header>
-    <div class="logo" id="logo">
-      <img src="images/logo-sport-326x167.png" alt="Imagen logo">
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Sports-Wear</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo" id="logo">
+        <img src="images/logo-sport-326x167.png" alt="Imagen logo" />
+      </div>
 
-  <nav>
-    <div class="nav-bar" id="nav-bar">
+      <nav>
+        <label for="search">Buscar</label>
+        <input type="search" name="search" id="search" placeholder="Buscar" />
+
+        <div class="nav-bar" id="nav-bar">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Venta Mayorista</a></li>
+            <li><a href="#">Locales</a></li>
+            <li><a href="#">Guia de Talles</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <!--Banner-Carrusel-->
+
+    <div class="banner carrusel" id="banner">
       <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Productos</a></li>
-        <li><a href="#">Venta Mayorista</a></li>
-        <li><a href="#">Locales</a></li>
-        <li><a href="#">Guia de Talles</a></li>
+        <li>
+          <a href="#"><img src="/images/img-banner.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/img-banner-2.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/images/img-banner-3.png" alt="" /></a>
+        </li>
       </ul>
     </div>
 
-    <div class="banner" id="banner">
-      <ul>
-        <li><a href="#"><img src="/images/img-banner.png" alt=""></a></li>
-        <li><a href="#"><img src="/images/img-banner-2.png" alt=""></a></li>
-        <li><a href="#"><img src="/images/img-banner-3.png" alt=""></a></li>
-      </ul>
-    </div>
-  </nav>
-  
-  </header>
-
-  <main>
-
-  </main>
-  <footer>
-
-  </footer>
-</body>
+    <!--Main-->
+    <main>
+      <article class="camisas" id="camisas">
+        <h2>Camisas</h2>
+        <div class="button"><a href="#">Ver Todo</a></div>
+      </article>
+      <article class="Jeans" id="Jeans">
+        <h2>Jeans</h2>
+        <div class="button"><a href="#">Ver Todo</a></div>
+      </article>
+      <article class="Remeras" id="Remeras">
+        <h2>Remeras</h2>
+        <div class="button"><a href="#">Ver Todo</a></div>
+      </article>
+      <!--Lista de productos-->
+      <article class="lista-productos"></article>
+    </main>
+    <!--Seccion Mayorista-->
+    <section class="venta-mayorista">
+      <a href="#"><img src="images/ropa-mayorista.jpg" alt="" /></a>
+      <div class="txt-venta">
+        <h2>¿Querés Vender Nuestra Marca</h2>
+        <p>
+          Encontrá toda la informacion que necesitas para tener en tu local la
+          coleccion de Sports-Wear
+        </p>
+        <a href="#"><div class="button">Ver Más</div></a>
+      </div>
+    </section>
+    <section class="servicios">
+      <div class="retiros-gratis">
+        <h2>Retiros sin Cargo
+        </h2>
+        <p>En tiendas de San Luis Capital</p>
+      </div>
+      <div class="envio-gratis">
+        <h2>Envios Gratis</h2>
+        <p>A partir de los $80.000</p>
+      </div>
+      <div class="cambios-Gratis">
+        <h2>Retiros sin Cargo</h2>
+        <p>Hasta 30 días de tu compra</p>
+      </div>
+    </section>
+    <footer>
+      <div class="navegacion">
+        <ul>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Venta Mayorista</a></li>
+          <li><a href="#">Locales</a></li>
+          <li><a href="#">Cambios y Devoluciones</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
