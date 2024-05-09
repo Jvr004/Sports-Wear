@@ -2,35 +2,50 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Sports-Wear</title>
   </head>
   <body>
-    <header>
+    <header class="header-nav container-margin-0-50px">
       <div class="logo" id="logo">
-        <img src="images/logo-sport-326x167.png" alt="Imagen logo" />
+        <a href="index.html"
+          ><img src="images/Logo.gif" width="100px" alt="Imagen logo"
+        /></a>
       </div>
 
-      <nav>
-        <label for="search">Buscar</label>
-        <input type="search" name="search" id="search" placeholder="Buscar" />
-
-        <div class="nav-bar" id="nav-bar">
+      <nav class="nav-bar">
+        <div class="nav-links" id="nav-links">
           <ul>
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Productos</a></li>
             <li><a href="#">Venta Mayorista</a></li>
             <li><a href="#">Locales</a></li>
             <li><a href="#">Guia de Talles</a></li>
+            <div class="search">
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Buscar"
+              />
+              <i class="fa-solid fa-magnifying-glass fa-beat"></i>
+            </div>
           </ul>
         </div>
       </nav>
     </header>
-    
+
     <!--Banner-Carrusel-->
 
-    <div class="banner carrusel" id="banner">
+    <div class="banner carrusel container-margin-0-50px" id="banner">
       <ul>
         <li>
           <a href="#"><img src="/images/img-banner.png" alt="" /></a>
@@ -43,9 +58,8 @@
         </li>
       </ul>
     </div>
-
     <!--Main-->
-    <main>
+    <main class="container-margin-0-50px">
       <article class="camisas" id="camisas">
         <h2>Camisas</h2>
         <div class="button"><a href="#">Ver Todo</a></div>
@@ -62,7 +76,7 @@
       <article class="lista-productos"></article>
     </main>
     <!--Seccion Mayorista-->
-    <section class="venta-mayorista">
+    <section class="venta-mayorista container-margin-0-50px">
       <a href="#"><img src="images/ropa-mayorista.jpg" alt="" /></a>
       <div class="txt-venta">
         <h2>¿Querés Vender Nuestra Marca</h2>
@@ -73,10 +87,10 @@
         <a href="#"><div class="button">Ver Más</div></a>
       </div>
     </section>
-    <section class="servicios">
+    <!--Seccion Servicios-->
+    <section class="servicios container-margin-0-50px">
       <div class="retiros-gratis">
-        <h2>Retiros sin Cargo
-        </h2>
+        <h2>Retiros sin Cargo</h2>
         <p>En tiendas de San Luis Capital</p>
       </div>
       <div class="envio-gratis">

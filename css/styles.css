@@ -10,80 +10,66 @@ body{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.logo img{
-  width: 200px;
-  height: auto;
-  position: relative;
+.container-margin-0-50px{
+  margin: 0 50px;
 }
 
-header{
-  background-color: lightpink;
-  width: 100%;
-  position: fixed;
+.logo img{
+  width: auto;
+  height: 150px ;
+  border-radius: 50%;
+}
+
+.logo img:hover{
+  transform: scale(1.2);
+}
+
+.header-nav{
+  background-image: linear-gradient(120deg, violet, yellow);
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: auto;
+  position: sticky;
   top: 0;
 }
 
-.nav-bar{
-  background-color: #349534;
-}
-
-.nav-bar ul{
+.nav-bar .nav-links ul{
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
-  
-}
-
-
-.banner{
-  background-color: rgb(186, 208, 43);
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  margin-top: 150px ;
-
-}
-
-.banner img{
-  width: 500px;
-  margin: 10px;
-  padding: 10px;
-}
-
-main{
-  background-color: rgb(45, 195, 200);
-  width: 100%;
-  height: auto;
-  margin: 10px 0;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
   align-content: center;
 }
 
-.button{
-  background-color: lightgreen;
-  width: 100px;
+.nav-bar .nav-links a{
+  color: rgb(49, 47, 47);
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav-bar .nav-links a:hover{
+  color: white;
   
 }
 
-.venta-mayorista{
-  background-color: lavender;
+.search{
+  float: right;
 }
 
-.venta-mayorista a > img{
-  width: 250px;
-  height: 200px;
+.nav-bar ul > input{
+  border: none;
+  width: auto;
+  height: 20px;
 }
 
-.servicios{
-  background-color: lightgray;
-  margin: 10px 0;
-  padding: 10px 0;
+.nav-bar .nav-links i{
+  width: auto;
+  height: 31px;
 }
 
-footer{
-  background-color: darkgray;
-  width: 100%;
-  height: 200px;
+@media (m){
+
 }
