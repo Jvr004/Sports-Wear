@@ -9,6 +9,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Sports-Wear</title>
@@ -17,11 +21,17 @@
     <!--Icono Chevron-up-->
     <a href="index.html"><i class="fa-solid fa-chevron-up fa-beat-fade"></i></a>
 
-    <!--header-->
+    <!--Logo-->
+      <!-- Header -->
     <header class="header-nav container-margin-0-50px">
-      <div class="logo" id="logo">
+
+    <div class="logo" id="logo">
         <a href="index.html"
-          ><img src="images/Logo.gif" width="100px" alt="Imagen logo"
+          ><img
+            loading="lazy"
+            src="images/Logo.gif"
+            width="100px"
+            alt="Imagen logo"
         /></a>
       </div>
       <!--Nav-->
@@ -33,15 +43,11 @@
             <li><a href="#">Venta Mayorista</a></li>
             <li><a href="#">Locales</a></li>
             <li><a href="#">Guia de Talles</a></li>
-            <div class="search">
-              <input
-                type="search"
-                name="search"
-                id="search"
-                placeholder="Buscar"
-              />
-              <i class="fa-solid fa-magnifying-glass fa-beat"></i>
-            </div>
+            <li><a href="#"><input type="search" name="search" id="search" placeholder="Buscar"/>
+              <i class="fa-solid fa-magnifying-glass fa-beat"></i></a>
+            </li>
+            <li><a href="#"><i class="fa-regular fa-user fa-xl"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-bag-shopping fa-xl"></i></a></li>
           </ul>
         </div>
       </nav>
@@ -54,6 +60,7 @@
           <li>
             <a id="c-img-1" href="#"
               ><img
+                loading="lazy"
                 src="/images/img-banner.png"
                 styles="width 100%"
                 alt="imagen banner imperdible"
@@ -63,6 +70,7 @@
           <li>
             <a id="c-img-2" href="#"
               ><img
+                loading="lazy"
                 src="/images/img-banner-2.png"
                 styles="width 100%"
                 alt="imagen banner basicos"
@@ -71,6 +79,7 @@
           <li>
             <a id="c-img-3" href="#"
               ><img
+                loading="lazy"
                 src="/images/img-banner-3.png"
                 styles="width 100%"
                 alt="imagen benner nueva temporada"
@@ -80,25 +89,30 @@
       </div>
     </section>
     <!--Main-->
-    <main class="container-margin-0-50px">
+    <main class="container-margin-0-50px productos-container">
       <article class="camisas" id="camisas">
         <h2>Camisas</h2>
-        <div class="button"><a href="#">Ver Todo</a></div>
+        <img src="images/camisas.jpg" alt="camisas">
+        <a href="#">Ver Todo</a>
       </article>
-      <article class="Jeans" id="Jeans">
+      <article class="jeans" id="jeans">
         <h2>Jeans</h2>
-        <div class="button"><a href="#">Ver Todo</a></div>
+        <img src="https://images.unsplash.com/photo-1565084888279-aca607ecce0c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="jeans">
+        <a href="#">Ver Todo</a>
       </article>
-      <article class="Remeras" id="Remeras">
+      <article class="remeras" id="Remeras">
         <h2>Remeras</h2>
-        <div class="button"><a href="#">Ver Todo</a></div>
+        <img src="https://images.unsplash.com/photo-1416339698674-4f118dd3388b?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="remeras">
+        <a href="#">Ver Todo</a>
       </article>
       <!--Lista de productos-->
       <article class="lista-productos"></article>
     </main>
     <!--Seccion Mayorista-->
     <section class="venta-mayorista container-margin-0-50px">
-      <a href="#"><img src="images/ropa-mayorista.jpg" alt="" /></a>
+      <a href="#"
+        ><img loading="lazy" src="images/ropa-mayorista.jpg" width="400px" height="auto" alt=""
+      /></a>
       <div class="txt-venta">
         <h2>¿Querés Vender Nuestra Marca</h2>
         <p>
