@@ -1,0 +1,17 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+
+footer{
+  background-color: rgba(128, 128, 128,03);
+  display: flex;
+}
+
+iframe{
+  width: 100% !important;
+  height: 400px !important;
+  
+}

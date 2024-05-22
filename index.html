@@ -15,6 +15,14 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles-footer.css" />
+    <link class="favicon" rel="shortcut icon" href="images/img-logo.png" type="image/x-icon">
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
     <title>Sports-Wear</title>
   </head>
   <body>
@@ -23,19 +31,16 @@
 
     <!--Logo-->
       <!-- Header -->
-    <header class="header-nav container-margin-0-50px">
-
-    <div class="logo" id="logo">
-        <a href="index.html"
-          ><img
-            loading="lazy"
-            src="images/Logo.gif"
-            width="100px"
-            alt="Imagen logo"
-        /></a>
+    <header class="header">
+      
+      <div class="logo" id="logo">
+        <a href="index.html">
+          <img src="images/Logo.gif" width="100px" alt="Imagen logo"/>
+        </a>
       </div>
+
       <!--Nav-->
-      <nav class="nav-bar">
+      <nav class="navbar">
         <div class="nav-links" id="nav-links">
           <ul>
             <li><a href="#">Inicio</a></li>
@@ -43,19 +48,17 @@
             <li><a href="#">Venta Mayorista</a></li>
             <li><a href="#">Locales</a></li>
             <li><a href="#">Guia de Talles</a></li>
-            <li><a href="#"><input type="search" name="search" id="search" placeholder="Buscar"/>
-              <i class="fa-solid fa-magnifying-glass fa-beat"></i></a>
-            </li>
             <li><a href="#"><i class="fa-regular fa-user fa-xl"></i></a></li>
             <li><a href="#"><i class="fa-solid fa-bag-shopping fa-xl"></i></a></li>
           </ul>
         </div>
       </nav>
+
     </header>
 
     <!--Banner-Carrusel-->
     <section class="carrusel-banner" id="carrusel-banner">
-      <div class="banner carrusel container-margin-0-50px" id="banner">
+      <div class="banner carrusel container" id="banner">
         <ul>
           <li>
             <a id="c-img-1" href="#"
@@ -89,7 +92,7 @@
       </div>
     </section>
     <!--Main-->
-    <main class="container-margin-0-50px productos-container">
+    <main class="container productos-container">
       <article class="camisas" id="camisas">
         <h2>Camisas</h2>
         <img src="images/camisas.jpg" alt="camisas">
@@ -97,21 +100,21 @@
       </article>
       <article class="jeans" id="jeans">
         <h2>Jeans</h2>
-        <img src="https://images.unsplash.com/photo-1565084888279-aca607ecce0c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="jeans">
+        <img loading="lazy" src="images/jeans/productos-jeans.jpeg" alt="jeans">
         <a href="#">Ver Todo</a>
       </article>
       <article class="remeras" id="Remeras">
         <h2>Remeras</h2>
-        <img src="https://images.unsplash.com/photo-1416339698674-4f118dd3388b?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="remeras">
+        <img loading="lazy" src="images/remeras/productos-remeras.jpeg" alt="remeras">
         <a href="#">Ver Todo</a>
       </article>
       <!--Lista de productos-->
       <article class="lista-productos"></article>
     </main>
     <!--Seccion Mayorista-->
-    <section class="venta-mayorista container-margin-0-50px">
+    <section class="venta-mayorista container">
       <a href="#"
-        ><img loading="lazy" src="images/ropa-mayorista.jpg" width="400px" height="auto" alt=""
+        ><img loading="lazy" src="images/camisas/productos-camisas.jpeg" width="400px" height="auto" alt=""
       /></a>
       <div class="txt-venta">
         <h2>¿Querés Vender Nuestra Marca</h2>
@@ -123,7 +126,7 @@
       </div>
     </section>
     <!--Seccion Servicios-->
-    <section class="servicios container-margin-0-50px">
+    <section class="servicios container">
       <div class="retiros-gratis">
         <h2>Retiros sin Cargo</h2>
         <p>En tiendas de San Luis Capital</p>
@@ -138,14 +141,7 @@
       </div>
     </section>
     <footer>
-      <div class="navegacion">
-        <ul>
-          <li><a href="#">Productos</a></li>
-          <li><a href="#">Venta Mayorista</a></li>
-          <li><a href="#">Locales</a></li>
-          <li><a href="#">Cambios y Devoluciones</a></li>
-        </ul>
-      </div>
+      <iframe src="footer.html" frameborder="0"></iframe>
     </footer>
   </body>
 </html>
