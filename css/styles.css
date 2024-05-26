@@ -40,7 +40,7 @@ img {
   margin-bottom: 25px;
 }
 
-/* Logo */
+/* --------------------Logo */
 
 .favicon{
   border-radius: 50%;
@@ -48,6 +48,7 @@ img {
 
 .logo{
   display: flex;
+  padding-right: 50px;
 }
 
 .logo img{
@@ -61,13 +62,13 @@ img {
 }
 
 
-/* Header */
+/* -------------------------Header */
 
 .header {
     background-image: linear-gradient(120deg, violet, yellow);
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: space-evenly;
     align-items: center;
     height: auto;
@@ -89,8 +90,8 @@ img {
   font-weight: 800;
   text-transform: uppercase;
   color: black;
-  padding: 20px;
-  margin: 10px;
+  padding: 5px 20px;
+  margin: auto;
 }
 
 .nav-links ul li a:hover{
@@ -98,9 +99,43 @@ img {
 }
 
 
-/* Banner Carrusel */
+/*------------------- Banner Carrusel */
+.banner img{
+  max-width: 600px;
+}
+/* 
+.carrousel {
+  width: 100%;
+  margin: 0px 60px;
+}
 
-.banner{
+.carrousel h4 {
+  font-size: 36px;
+  line-height: 38px;
+  padding-bottom: 24px;
+  opacity: .9;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+/* img carrusel */
+
+/* .carrousel {
+  background-color: black;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: auto;
+  padding: 10px 0;
+
+} */ 
+
+
+
+/* 
+.carrusel-banner{
   width: auto;
   background-color: burlywood;
   display: flex;
@@ -114,24 +149,39 @@ img {
   max-width: 100%;
   height: auto;
   padding: 10px;
-}
+} */
 
 /* Main */
 
 .productos-container{
   background-color: rgb(153, 199, 239);
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
+  padding: 10px;
   max-width: 1200px;
-  height: auto;
+  height: 600px;
 
 }
 
 .productos-container img {
-  max-width: 400px;
-  height: auto;
-  margin: 10px;
-  padding: 10px;
-
+  width: 400px;
+  height: 600px;
+  padding: 0 10px;
 }
+
+.camisas-container {
+  background-color: #fff;
+  display: flex;
+  
+  width: 400px;
+  height: inherit;
+  padding: 10px;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-shadow: 10px;
+}
+

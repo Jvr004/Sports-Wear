@@ -46,8 +46,8 @@
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Productos</a></li>
             <li><a href="#">Venta Mayorista</a></li>
-            <li><a href="#">Locales</a></li>
-            <li><a href="#">Guia de Talles</a></li>
+            <li><a href="locales.html">Locales</a></li>
+            <li><a href="guia-talles.html">Guia de Talles</a></li>
             <li><a href="#"><i class="fa-regular fa-user fa-xl"></i></a></li>
             <li><a href="#"><i class="fa-solid fa-bag-shopping fa-xl"></i></a></li>
           </ul>
@@ -57,8 +57,55 @@
     </header>
 
     <!--Banner-Carrusel-->
-    <section class="carrusel-banner" id="carrusel-banner">
-      <div class="banner carrusel container" id="banner">
+    <section class="banner" id="banner">
+
+      <div class="carrousel">
+        
+        <button class="flecha-izquierda" id="flecha-izquierda">
+          <i class="fa-solid fa-chevron-left fa-fade"></i>
+        </button>
+
+        <div class="lista-deslizable" id="deslizable">
+          
+          <div class="deslizar" >
+
+          <div>
+            <a href="/">
+              <h4><small>Texto alternativo</small></h4>
+
+              <picture>
+                <img src="images/img-banner.png" alt="imagen">
+              </picture>
+            </a>
+          </div>
+
+          <div>
+            <a href="/">
+              <h4><small>Texto alternativo</small></h4>
+
+              <picture>
+                <img src="images/img-banner-2.png" alt="imagen">
+              </picture>
+            </a>
+          </div>
+
+          <div>
+            <a href="/">
+              <h4><small>Texto alternativo</small></h4>
+
+              <picture>
+                <img src="images/img-banner-3.png" alt="imagen">
+              </picture>
+            </a>
+          </div>
+
+        <button class="flecha-derecha" id="flecha-derecha">
+          <i class="fa-solid fa-chevron-right fa-fade"></i>
+        </button>
+          </div>
+        </div>
+    </div>
+      <!-- <div class="banner-carrusel container" id="banner-carrusel">
         <ul>
           <li>
             <a id="c-img-1" href="#"
@@ -69,7 +116,7 @@
                 alt="imagen banner imperdible"
             /></a>
           </li>
-          <i class="fa-solid fa-chevron-right fa-fade"></i>
+          
           <li>
             <a id="c-img-2" href="#"
               ><img
@@ -89,33 +136,43 @@
             /></a>
           </li>
         </ul>
-      </div>
+      </div> -->
     </section>
     <!--Main-->
     <main class="container productos-container">
-      <article class="camisas" id="camisas">
-        <h2>Camisas</h2>
-        <img src="images/camisas.jpg" alt="camisas">
-        <a href="#">Ver Todo</a>
+
+      <article class="camisas-container" id="camisas">
+        <header class="text">
+          <h2>Camisas</h2>
+        </header>
+        <footer>
+          <a href="#">Ver Todo</a>
+        </footer>
+        <img src="images/camisas/productos-camisas.jpeg" alt="camisas">
       </article>
+      
       <article class="jeans" id="jeans">
+
         <h2>Jeans</h2>
         <img loading="lazy" src="images/jeans/productos-jeans.jpeg" alt="jeans">
         <a href="#">Ver Todo</a>
+
       </article>
+      
       <article class="remeras" id="Remeras">
         <h2>Remeras</h2>
         <img loading="lazy" src="images/remeras/productos-remeras.jpeg" alt="remeras">
         <a href="#">Ver Todo</a>
       </article>
+      
       <!--Lista de productos-->
-      <article class="lista-productos"></article>
+      <article class="lista-productos">
+
+      </article>
     </main>
     <!--Seccion Mayorista-->
     <section class="venta-mayorista container">
-      <a href="#"
-        ><img loading="lazy" src="images/camisas/productos-camisas.jpeg" width="400px" height="auto" alt=""
-      /></a>
+      
       <div class="txt-venta">
         <h2>¿Querés Vender Nuestra Marca</h2>
         <p>
