@@ -15,7 +15,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/styles-footer.css" />
+    <link rel="stylesheet" href="css/header-footer.css" />
     <link class="favicon" rel="shortcut icon" href="images/img-logo.png" type="image/x-icon">
 
     <style>
@@ -27,11 +27,11 @@
   </head>
   <body>
     <!--Icono Chevron-up-->
-    <a href="index.html"><i class="fa-solid fa-chevron-up fa-beat-fade"></i></a>
-
+    
     <!--Logo-->
-      <!-- Header -->
+    <!-- Header -->
     <header class="header">
+            <a href="index.html"><i class="fa-solid fa-chevron-up fa-beat-fade"></i></a>
       
       <div class="logo" id="logo">
         <a href="index.html">
@@ -43,9 +43,9 @@
       <nav class="navbar">
         <div class="nav-links" id="nav-links">
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Venta Mayorista</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="producto.html">Productos</a></li>
+            <li><a href="mayorista.html">Venta Mayorista</a></li>
             <li><a href="locales.html">Locales</a></li>
             <li><a href="guia-talles.html">Guia de Talles</a></li>
             <li><a href="login.html"><i class="fa-regular fa-user fa-xl"></i></a></li>
@@ -53,124 +53,97 @@
           </ul>
         </div>
       </nav>
-
     </header>
 
     <!--Banner-Carrusel-->
     <section class="banner" id="banner">
 
-      <div class="carrousel">
-        
-        <button class="flecha-izquierda" id="flecha-izquierda">
-          <i class="fa-solid fa-chevron-left fa-fade"></i>
-        </button>
-
-        <div class="lista-deslizable" id="deslizable">
+        <div class="carrousel">
           
-          <div class="deslizar" >
+          <button class="flecha-izquierda" id="flecha-izquierda">
+            <i class="fa-solid fa-chevron-left fa-fade"></i>
+          </button>
 
-          <div>
-            <a href="/">
-              <h4><small>Texto alternativo</small></h4>
+          <div class="lista-deslizable" id="deslizable">
+            
+            <div class="deslizar" >
 
-              <picture>
-                <img src="images/img-banner.png" alt="imagen">
-              </picture>
-            </a>
+            <div>
+              <a href="/">
+                <h4><small>Texto alternativo</small></h4>
+
+                <picture>
+                  <img src="images/img-banner.png" alt="imagen">
+                </picture>
+              </a>
+            </div>
+
+            <div>
+              <a href="/">
+                <h4><small>Texto alternativo</small></h4>
+
+                <picture>
+                  <img src="images/img-banner-2.png" alt="imagen">
+                </picture>
+              </a>
+            </div>
+
+            <div>
+              <a href="/">
+                <h4><small>Texto alternativo</small></h4>
+
+                <picture>
+                  <img src="images/img-banner-3.png" alt="imagen">
+                </picture>
+              </a>
+            </div>
+
+          <button class="flecha-derecha" id="flecha-derecha">
+            <i class="fa-solid fa-chevron-right fa-fade"></i>
+          </button>
+            </div>
           </div>
-
-          <div>
-            <a href="/">
-              <h4><small>Texto alternativo</small></h4>
-
-              <picture>
-                <img src="images/img-banner-2.png" alt="imagen">
-              </picture>
-            </a>
-          </div>
-
-          <div>
-            <a href="/">
-              <h4><small>Texto alternativo</small></h4>
-
-              <picture>
-                <img src="images/img-banner-3.png" alt="imagen">
-              </picture>
-            </a>
-          </div>
-
-        <button class="flecha-derecha" id="flecha-derecha">
-          <i class="fa-solid fa-chevron-right fa-fade"></i>
-        </button>
-          </div>
-        </div>
-    </div>
-      <!-- <div class="banner-carrusel container" id="banner-carrusel">
-        <ul>
-          <li>
-            <a id="c-img-1" href="#"
-              ><img
-                loading="lazy"
-                src="/images/img-banner.png"
-                styles="width 100%"
-                alt="imagen banner imperdible"
-            /></a>
-          </li>
-          
-          <li>
-            <a id="c-img-2" href="#"
-              ><img
-                loading="lazy"
-                src="/images/img-banner-2.png"
-                styles="width 100%"
-                alt="imagen banner basicos"
-            /></a>
-          </li>
-          <li>
-            <a id="c-img-3" href="#"
-              ><img
-                loading="lazy"
-                src="/images/img-banner-3.png"
-                styles="width 100%"
-                alt="imagen benner nueva temporada"
-            /></a>
-          </li>
-        </ul>
-      </div> -->
+      </div>
     </section>
-    <!--Main-->
+    <!----------------------------------------------------Main-->
+    
     <main class="container productos-container">
 
       <article class="camisas-container" id="camisas">
         <header class="text">
           <h2>Camisas</h2>
         </header>
-        <footer>
-          <a href="#">Ver Todo</a>
-        </footer>
+          <a class="btn01" href="#">Ver Todo</a>
         <img src="images/camisas/productos-camisas.jpeg" alt="camisas">
       </article>
       
       <article class="jeans" id="jeans">
 
-        <h2>Jeans</h2>
+        <header>
+          <h2>Jeans</h2>
+        </header>
+        <a class="btn01" href="#">Ver Todo</a>
         <img loading="lazy" src="images/jeans/productos-jeans.jpeg" alt="jeans">
-        <a href="#">Ver Todo</a>
 
       </article>
       
       <article class="remeras" id="Remeras">
-        <h2>Remeras</h2>
+        <header>
+          <h2>Remeras</h2>
+        </header>
+        <a class="btn01" href="#">Ver Todo</a>
         <img loading="lazy" src="images/remeras/productos-remeras.jpeg" alt="remeras">
-        <a href="#">Ver Todo</a>
       </article>
       
-      <!--Lista de productos-->
-      <article class="lista-productos">
+      <!-----------------------------------------------Lista de productos-->
 
+      <article class="lista-productos">
+        <h1>Lorem ipsum dolor sit amet.</h1>
       </article>
     </main>
-    <!--Seccion Mayorista-->
+    
+    <!-------------------------------------------------Seccion Mayorista-->
+    
     <section class="venta-mayorista container">
       
       <div class="txt-venta">
@@ -182,7 +155,9 @@
         <a href="#"><div class="button">Ver Más</div></a>
       </div>
     </section>
-    <!--Seccion Servicios-->
+
+    <!--------------------------------------------------Seccion Servicios-->
+    
     <section class="servicios container">
       <div class="retiros-gratis">
         <h2>Retiros sin Cargo</h2>
@@ -197,8 +172,21 @@
         <p>Hasta 30 días de tu compra</p>
       </div>
     </section>
+
+
     <footer>
-      <iframe src="footer.html" frameborder="0"></iframe>
+      <div class="navegacion">
+        <ul>
+          <li><a href="index.html" target="_parent">Volver al Inicio</a></li>
+          <li><a href="producto.html">Productos</a></li>
+          <li><a href="mayorista.html">Venta Mayorista</a></li>
+          <li><a href="locales.html">Locales</a></li>
+          <li><a href="guia-talles.html">Guia de Talles</a></li>
+          <li><a href="cambios-devoluciones.html">Cambios y Devoluciones</a></li>
+        </ul>
+      </div>
     </footer>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
