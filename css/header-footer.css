@@ -87,7 +87,7 @@ img {
 
 .nav-links ul li a{
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 900;
   text-transform: uppercase;
   color: black;
   padding: 5px 20px;
@@ -115,7 +115,7 @@ footer{
   min-width: 100%;
   height: auto;
   display: flex;
-  background-color: #de3c3ca4;
+  background-color: #add8e6;
 }
 
 footer ul {
